@@ -2,6 +2,7 @@ window.onload = function() {
   const rockBtn = document.getElementById("Rock");
   const paperBtn = document.getElementById("Paper");
   const scissorsBtn = document.getElementById("Scissors");
+  
   function game() {
     function compPlay() {
       let actions = ["Rock", "Paper", "Scissors"];
